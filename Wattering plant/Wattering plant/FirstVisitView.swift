@@ -12,7 +12,7 @@ struct FirstVisitView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                Color(red: 223/255, green: 255/255, blue: 214/255).ignoresSafeArea()
+                //Color(red: 223/255, green: 255/255, blue: 214/255).ignoresSafeArea()
                 VStack {
                     Image("iconSplash")
                         .resizable()
@@ -23,10 +23,10 @@ struct FirstVisitView: View {
                         .foregroundColor(Color(red: 9/255, green: 82/255, blue: 86/255))
                         .font(Font.custom("Helvetica Neue", size: 30))
                         .fontWeight(.bold)
-                    Spacer().frame(height: 50)
+                    Spacer().frame(height: 60)
                     NavigationLink(destination: PersonNameView(), label: {
                             Text("Vamos lá!")
-                                .foregroundColor(Color(red: 223/255, green: 255/255, blue: 214/255))
+                                .foregroundColor(Color.white)
                                 .font(.title)
                                 .padding()
                                 .background(Color(red: 9/255, green: 82/255, blue: 86/255))

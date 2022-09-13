@@ -12,6 +12,7 @@
 		450E8D9528CF594200BFDAE4 /* FirstVisitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E8D9428CF594200BFDAE4 /* FirstVisitView.swift */; };
 		4515077128CF6CEC0076DCC4 /* PersonNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4515077028CF6CEC0076DCC4 /* PersonNameView.swift */; };
 		4515077328CF7A0A0076DCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4515077228CF7A0A0076DCC4 /* LaunchScreen.storyboard */; };
+		4571032D28D0CB1A003475C7 /* PlantNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4571032C28D0CB1A003475C7 /* PlantNameView.swift */; };
 		D9F92E8528C78FB700EACD8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8428C78FB700EACD8B /* AppDelegate.swift */; };
 		D9F92E8728C78FB700EACD8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8628C78FB700EACD8B /* SceneDelegate.swift */; };
 		D9F92E8928C78FB700EACD8B /* SplashInitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8828C78FB700EACD8B /* SplashInitialScreen.swift */; };
@@ -45,6 +46,7 @@
 		450E8D9428CF594200BFDAE4 /* FirstVisitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisitView.swift; sourceTree = "<group>"; };
 		4515077028CF6CEC0076DCC4 /* PersonNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonNameView.swift; sourceTree = "<group>"; };
 		4515077228CF7A0A0076DCC4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4571032C28D0CB1A003475C7 /* PlantNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantNameView.swift; sourceTree = "<group>"; };
 		D9F92E8128C78FB700EACD8B /* Wattering plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wattering plant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F92E8428C78FB700EACD8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9F92E8628C78FB700EACD8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				D9F92E9528C78FB800EACD8B /* Info.plist */,
 				D9F92E8D28C78FB700EACD8B /* Wattering_plant.xcdatamodeld */,
 				450E8D9428CF594200BFDAE4 /* FirstVisitView.swift */,
+				4571032C28D0CB1A003475C7 /* PlantNameView.swift */,
 			);
 			path = "Wattering plant";
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				450E8D9528CF594200BFDAE4 /* FirstVisitView.swift in Sources */,
 				D9F92E8728C78FB700EACD8B /* SceneDelegate.swift in Sources */,
 				D9F92E8F28C78FB700EACD8B /* Wattering_plant.xcdatamodeld in Sources */,
+				4571032D28D0CB1A003475C7 /* PlantNameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
