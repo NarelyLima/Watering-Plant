@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9F723C028CF5B340016D9E0 /* SplashLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F723BF28CF5B340016D9E0 /* SplashLoading.swift */; };
+		D9F723C328CF5C0F0016D9E0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D9F723C228CF5C0F0016D9E0 /* Lottie */; };
+		D9F723C528CF5D7E0016D9E0 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F723C428CF5D7E0016D9E0 /* LottieView.swift */; };
+		D9F723D028D0A1CE0016D9E0 /* loadingwater.json in Resources */ = {isa = PBXBuildFile; fileRef = D9F723CF28D0A1CE0016D9E0 /* loadingwater.json */; };
+		D9F723D628D0A7C60016D9E0 /* planting.json in Resources */ = {isa = PBXBuildFile; fileRef = D9F723D528D0A7C60016D9E0 /* planting.json */; };
 		D9F92E8528C78FB700EACD8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8428C78FB700EACD8B /* AppDelegate.swift */; };
 		D9F92E8728C78FB700EACD8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8628C78FB700EACD8B /* SceneDelegate.swift */; };
 		D9F92E8928C78FB700EACD8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8828C78FB700EACD8B /* ViewController.swift */; };
-		D9F92E8C28C78FB700EACD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F92E8A28C78FB700EACD8B /* Main.storyboard */; };
 		D9F92E8F28C78FB700EACD8B /* Wattering_plant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8D28C78FB700EACD8B /* Wattering_plant.xcdatamodeld */; };
 		D9F92E9128C78FB800EACD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F92E9028C78FB800EACD8B /* Assets.xcassets */; };
 		D9F92E9428C78FB800EACD8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F92E9228C78FB800EACD8B /* LaunchScreen.storyboard */; };
@@ -37,11 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9F723BF28CF5B340016D9E0 /* SplashLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashLoading.swift; sourceTree = "<group>"; };
+		D9F723C428CF5D7E0016D9E0 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		D9F723CF28D0A1CE0016D9E0 /* loadingwater.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadingwater.json; sourceTree = "<group>"; };
+		D9F723D528D0A7C60016D9E0 /* planting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = planting.json; sourceTree = "<group>"; };
 		D9F92E8128C78FB700EACD8B /* Wattering plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wattering plant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F92E8428C78FB700EACD8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9F92E8628C78FB700EACD8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D9F92E8828C78FB700EACD8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D9F92E8B28C78FB700EACD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9F92E8E28C78FB700EACD8B /* Wattering_plant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wattering_plant.xcdatamodel; sourceTree = "<group>"; };
 		D9F92E9028C78FB800EACD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F92E9328C78FB800EACD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F723C328CF5C0F0016D9E0 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9F723C828CF690C0016D9E0 /* Animations - Json */ = {
+			isa = PBXGroup;
+			children = (
+				D9F723D528D0A7C60016D9E0 /* planting.json */,
+				D9F723CF28D0A1CE0016D9E0 /* loadingwater.json */,
+			);
+			path = "Animations - Json";
+			sourceTree = "<group>";
+		};
 		D9F92E7828C78FB700EACD8B = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +118,16 @@
 		D9F92E8328C78FB700EACD8B /* Wattering plant */ = {
 			isa = PBXGroup;
 			children = (
+				D9F723C828CF690C0016D9E0 /* Animations - Json */,
 				D9F92E8428C78FB700EACD8B /* AppDelegate.swift */,
 				D9F92E8628C78FB700EACD8B /* SceneDelegate.swift */,
 				D9F92E8828C78FB700EACD8B /* ViewController.swift */,
-				D9F92E8A28C78FB700EACD8B /* Main.storyboard */,
+				D9F723BF28CF5B340016D9E0 /* SplashLoading.swift */,
 				D9F92E9028C78FB800EACD8B /* Assets.xcassets */,
 				D9F92E9228C78FB800EACD8B /* LaunchScreen.storyboard */,
 				D9F92E9528C78FB800EACD8B /* Info.plist */,
 				D9F92E8D28C78FB700EACD8B /* Wattering_plant.xcdatamodeld */,
+				D9F723C428CF5D7E0016D9E0 /* LottieView.swift */,
 			);
 			path = "Wattering plant";
 			sourceTree = "<group>";
@@ -146,6 +165,9 @@
 			dependencies = (
 			);
 			name = "Wattering plant";
+			packageProductDependencies = (
+				D9F723C228CF5C0F0016D9E0 /* Lottie */,
+			);
 			productName = "Wattering plant";
 			productReference = D9F92E8128C78FB700EACD8B /* Wattering plant.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +240,9 @@
 				Base,
 			);
 			mainGroup = D9F92E7828C78FB700EACD8B;
+			packageReferences = (
+				D9F723C128CF5C0E0016D9E0 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = D9F92E8228C78FB700EACD8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F723D628D0A7C60016D9E0 /* planting.json in Resources */,
 				D9F92E9428C78FB800EACD8B /* LaunchScreen.storyboard in Resources */,
+				D9F723D028D0A1CE0016D9E0 /* loadingwater.json in Resources */,
 				D9F92E9128C78FB800EACD8B /* Assets.xcassets in Resources */,
-				D9F92E8C28C78FB700EACD8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F92E8928C78FB700EACD8B /* ViewController.swift in Sources */,
+				D9F723C028CF5B340016D9E0 /* SplashLoading.swift in Sources */,
 				D9F92E8528C78FB700EACD8B /* AppDelegate.swift in Sources */,
 				D9F92E8728C78FB700EACD8B /* SceneDelegate.swift in Sources */,
 				D9F92E8F28C78FB700EACD8B /* Wattering_plant.xcdatamodeld in Sources */,
+				D9F723C528CF5D7E0016D9E0 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D9F92E8A28C78FB700EACD8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9F92E8B28C78FB700EACD8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D9F92E9228C78FB800EACD8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -354,6 +374,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -415,6 +436,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -448,7 +470,6 @@
 				INFOPLIST_FILE = "Wattering plant/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +497,6 @@
 				INFOPLIST_FILE = "Wattering plant/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -608,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9F723C128CF5C0E0016D9E0 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9F723C228CF5C0F0016D9E0 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9F723C128CF5C0E0016D9E0 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D9F92E8D28C78FB700EACD8B /* Wattering_plant.xcdatamodeld */ = {
