@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450E8D9228CF53EA00BFDAE4 /* InfoUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E8D9028CF53EA00BFDAE4 /* InfoUser+CoreDataClass.swift */; };
+		450E8D9328CF53EA00BFDAE4 /* InfoUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E8D9128CF53EA00BFDAE4 /* InfoUser+CoreDataProperties.swift */; };
+		450E8D9528CF594200BFDAE4 /* FirstVisitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E8D9428CF594200BFDAE4 /* FirstVisitView.swift */; };
+		4515077128CF6CEC0076DCC4 /* PersonNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4515077028CF6CEC0076DCC4 /* PersonNameView.swift */; };
+		4515077328CF7A0A0076DCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4515077228CF7A0A0076DCC4 /* LaunchScreen.storyboard */; };
 		D9F92E8528C78FB700EACD8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8428C78FB700EACD8B /* AppDelegate.swift */; };
 		D9F92E8728C78FB700EACD8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8628C78FB700EACD8B /* SceneDelegate.swift */; };
-		D9F92E8928C78FB700EACD8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8828C78FB700EACD8B /* ViewController.swift */; };
-		D9F92E8C28C78FB700EACD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F92E8A28C78FB700EACD8B /* Main.storyboard */; };
+		D9F92E8928C78FB700EACD8B /* SplashInitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8828C78FB700EACD8B /* SplashInitialScreen.swift */; };
 		D9F92E8F28C78FB700EACD8B /* Wattering_plant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E8D28C78FB700EACD8B /* Wattering_plant.xcdatamodeld */; };
 		D9F92E9128C78FB800EACD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F92E9028C78FB800EACD8B /* Assets.xcassets */; };
-		D9F92E9428C78FB800EACD8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F92E9228C78FB800EACD8B /* LaunchScreen.storyboard */; };
 		D9F92E9F28C78FB800EACD8B /* Wattering_plantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92E9E28C78FB800EACD8B /* Wattering_plantTests.swift */; };
 		D9F92EA928C78FB800EACD8B /* Wattering_plantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92EA828C78FB800EACD8B /* Wattering_plantUITests.swift */; };
 		D9F92EAB28C78FB800EACD8B /* Wattering_plantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F92EAA28C78FB800EACD8B /* Wattering_plantUITestsLaunchTests.swift */; };
@@ -37,14 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		450E8D9028CF53EA00BFDAE4 /* InfoUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InfoUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		450E8D9128CF53EA00BFDAE4 /* InfoUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InfoUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		450E8D9428CF594200BFDAE4 /* FirstVisitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisitView.swift; sourceTree = "<group>"; };
+		4515077028CF6CEC0076DCC4 /* PersonNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonNameView.swift; sourceTree = "<group>"; };
+		4515077228CF7A0A0076DCC4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F92E8128C78FB700EACD8B /* Wattering plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wattering plant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F92E8428C78FB700EACD8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9F92E8628C78FB700EACD8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9F92E8828C78FB700EACD8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D9F92E8B28C78FB700EACD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9F92E8828C78FB700EACD8B /* SplashInitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInitialScreen.swift; sourceTree = "<group>"; };
 		D9F92E8E28C78FB700EACD8B /* Wattering_plant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wattering_plant.xcdatamodel; sourceTree = "<group>"; };
 		D9F92E9028C78FB800EACD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D9F92E9328C78FB800EACD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F92E9528C78FB800EACD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F92E9A28C78FB800EACD8B /* Wattering plantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wattering plantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F92E9E28C78FB800EACD8B /* Wattering_plantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wattering_plantTests.swift; sourceTree = "<group>"; };
@@ -81,6 +87,8 @@
 		D9F92E7828C78FB700EACD8B = {
 			isa = PBXGroup;
 			children = (
+				450E8D9028CF53EA00BFDAE4 /* InfoUser+CoreDataClass.swift */,
+				450E8D9128CF53EA00BFDAE4 /* InfoUser+CoreDataProperties.swift */,
 				D9F92E8328C78FB700EACD8B /* Wattering plant */,
 				D9F92E9D28C78FB800EACD8B /* Wattering plantTests */,
 				D9F92EA728C78FB800EACD8B /* Wattering plantUITests */,
@@ -103,12 +111,13 @@
 			children = (
 				D9F92E8428C78FB700EACD8B /* AppDelegate.swift */,
 				D9F92E8628C78FB700EACD8B /* SceneDelegate.swift */,
-				D9F92E8828C78FB700EACD8B /* ViewController.swift */,
-				D9F92E8A28C78FB700EACD8B /* Main.storyboard */,
+				4515077228CF7A0A0076DCC4 /* LaunchScreen.storyboard */,
+				D9F92E8828C78FB700EACD8B /* SplashInitialScreen.swift */,
+				4515077028CF6CEC0076DCC4 /* PersonNameView.swift */,
 				D9F92E9028C78FB800EACD8B /* Assets.xcassets */,
-				D9F92E9228C78FB800EACD8B /* LaunchScreen.storyboard */,
 				D9F92E9528C78FB800EACD8B /* Info.plist */,
 				D9F92E8D28C78FB700EACD8B /* Wattering_plant.xcdatamodeld */,
+				450E8D9428CF594200BFDAE4 /* FirstVisitView.swift */,
 			);
 			path = "Wattering plant";
 			sourceTree = "<group>";
@@ -234,9 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F92E9428C78FB800EACD8B /* LaunchScreen.storyboard in Resources */,
+				4515077328CF7A0A0076DCC4 /* LaunchScreen.storyboard in Resources */,
 				D9F92E9128C78FB800EACD8B /* Assets.xcassets in Resources */,
-				D9F92E8C28C78FB700EACD8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F92E8928C78FB700EACD8B /* ViewController.swift in Sources */,
+				450E8D9328CF53EA00BFDAE4 /* InfoUser+CoreDataProperties.swift in Sources */,
+				D9F92E8928C78FB700EACD8B /* SplashInitialScreen.swift in Sources */,
+				4515077128CF6CEC0076DCC4 /* PersonNameView.swift in Sources */,
+				450E8D9228CF53EA00BFDAE4 /* InfoUser+CoreDataClass.swift in Sources */,
 				D9F92E8528C78FB700EACD8B /* AppDelegate.swift in Sources */,
+				450E8D9528CF594200BFDAE4 /* FirstVisitView.swift in Sources */,
 				D9F92E8728C78FB700EACD8B /* SceneDelegate.swift in Sources */,
 				D9F92E8F28C78FB700EACD8B /* Wattering_plant.xcdatamodeld in Sources */,
 			);
@@ -299,25 +311,6 @@
 			targetProxy = D9F92EA528C78FB800EACD8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D9F92E8A28C78FB700EACD8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9F92E8B28C78FB700EACD8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D9F92E9228C78FB800EACD8B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9F92E9328C78FB800EACD8B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D9F92EAC28C78FB800EACD8B /* Debug */ = {
@@ -443,12 +436,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SMA3U9UPC8;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Wattering plant/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,12 +463,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SMA3U9UPC8;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Wattering plant/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
