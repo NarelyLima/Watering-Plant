@@ -12,12 +12,14 @@ class RainLightningScene: SKScene {
 
     static var shared = RainLightningScene()
 
-    let rainEmitter = SKEmitterNode(fileNamed: "RainDrops.sks")!
+    var rainEmitter =  SKEmitterNode(fileNamed: "RainDrops.sks")!
+
 
     override func didMove(to view: SKView) {
         self.backgroundColor = .clear
-        self.addChild(rainEmitter)
-
+        if !rainEmitter.inParentHierarchy(self) {
+            self.addChild(rainEmitter)
+        }
         rainEmitter.position.y = self.frame.maxY
         rainEmitter.particlePositionRange.dx = self.frame.width * 2.5
     }

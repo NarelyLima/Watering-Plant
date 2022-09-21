@@ -11,6 +11,7 @@
 		450E8D9328CF53EA00BFDAE4 /* InfoUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E8D9128CF53EA00BFDAE4 /* InfoUser+CoreDataProperties.swift */; };
 		4515077328CF7A0A0076DCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4515077228CF7A0A0076DCC4 /* LaunchScreen.storyboard */; };
 		45402F9628D9E31000F23794 /* DoneSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45402F9528D9E31000F23794 /* DoneSound.mp3 */; };
+		45402F9828DB2B6200F23794 /* TesteNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45402F9728DB2B6200F23794 /* TesteNames.swift */; };
 		4571032F28D0CDFC003475C7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4571032E28D0CDFC003475C7 /* Model.swift */; };
 		45C2D4DF28D1F44300EAB43D /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2D4DE28D1F44300EAB43D /* PrincipalView.swift */; };
 		45C2D4E428D1F71D00EAB43D /* LegacySceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2D4E328D1F71D00EAB43D /* LegacySceneView.swift */; };
@@ -51,6 +52,7 @@
 		450E8D9128CF53EA00BFDAE4 /* InfoUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InfoUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4515077228CF7A0A0076DCC4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45402F9528D9E31000F23794 /* DoneSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DoneSound.mp3; sourceTree = "<group>"; };
+		45402F9728DB2B6200F23794 /* TesteNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteNames.swift; sourceTree = "<group>"; };
 		4571032E28D0CDFC003475C7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		45C2D4DE28D1F44300EAB43D /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
 		45C2D4E328D1F71D00EAB43D /* LegacySceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacySceneView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				45D794AA28D8A555003AC272 /* RainDrops.sks */,
 				45D794AB28D8A555003AC272 /* Assets.xcassets */,
 				45D794AE28D8A642003AC272 /* RainLightningScene.swift */,
+				45402F9728DB2B6200F23794 /* TesteNames.swift */,
 			);
 			path = DropWaterView;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				45C2D4E628D1F74700EAB43D /* WaterWave.swift in Sources */,
 				450E8D9228CF53EA00BFDAE4 /* InfoUser+CoreDataClass.swift in Sources */,
 				45D794AF28D8A642003AC272 /* RainLightningScene.swift in Sources */,
+				45402F9828DB2B6200F23794 /* TesteNames.swift in Sources */,
 				D9F92E8528C78FB700EACD8B /* AppDelegate.swift in Sources */,
 				4571032F28D0CDFC003475C7 /* Model.swift in Sources */,
 				D9F92E8728C78FB700EACD8B /* SceneDelegate.swift in Sources */,

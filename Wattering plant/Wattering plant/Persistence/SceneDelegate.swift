@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        }
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        let rootViewController = UIHostingController(rootView: SplashInitialScreen())
+        let rootViewController = UIHostingController(rootView: TesteNames())
         window.rootViewController = rootViewController
         self.window = window
         window.makeKeyAndVisible()
